@@ -1,0 +1,71 @@
+---
+title: Overview
+description: 'Explore how Packetware Domains can help assist your infrastructure'
+---
+# Managing Domains with Packetware: Reverse Proxy, Protection, and Caching
+
+Packetware provides a comprehensive solution for managing domains, protecting and optimizing HTTP traffic. With features like reverse proxying, attack mitigation, and caching, Packetware ensures your domains are secure and perform optimally. Here's an overview of how these features work and benefit your domain management needs.
+
+## Domain Management Features
+
+### Reverse Proxy
+
+Packetware employs a reverse proxy setup, which acts as an intermediary for requests from clients seeking resources from your servers. This approach provides numerous advantages:
+
+- **Security**: By abstracting direct access to servers, it minimizes exposure to direct threats.
+- **Load Balancing**: Distributes incoming traffic efficiently across multiple origins, enhancing reliability and performance.
+
+### Security Enhancements
+
+Packetware comes with built-in defenses to maintain the security and integrity of your domains.
+
+- **Attack Detection & Prevention**: Packetware continually monitors your domain for suspicious activity.
+  - **Under Attack Mode**: Provides an additional layer of scrutiny when abnormal behavior is detected.
+  - **Bot Management**: Protects against harmful bots while allowing trusted ones like Googlebot and Bingbot.
+  
+- **Uptime Monitoring**: Alerts for potential downtime with `uptime_alert`, ensuring quick responses to reduce outages.
+
+### Caching Capabilities
+
+Packetware optimizes the delivery of static resources with advanced caching strategies:
+
+- **Configurable Caching Levels**: Control how your resources are cached with options from basic to aggressive caching.
+- **Cache TTL**: Determine how long resources are cached (`cache_ttl`), reducing server load and improving response times.
+
+### Domain Rules for Customization
+
+Define page rules to tailor request handling based on specific criteria:
+
+- **Page Rules & Actions**: Customize traffic handling with conditions via `rules`, managing when and how requests are allowed or denied.
+- **Ratelimiting**: Control access to your resources by setting thresholds and time windows for requests.
+
+## Origin Management
+
+At the core of Packetware's domain management is its ability to handle multiple origins effectively:
+
+- **Origin Settings**: Manage how requests are routed to origins, whether for a single app or multiple endpoints.
+- **SSL & HTTP/2**: Packetware supports modern web protocols ensuring data security and efficient transfer.
+
+## Monitoring and Logging
+
+Stay informed with comprehensive audit and monitoring capabilities:
+
+- **Audit Logs**: Keep detailed records of all actions taken on your domain, providing valuable insights into historical changes.
+- **Rate Limit Buckets**: Log and manage request rates for enhanced traffic control.
+
+## TLS and Secure Communications
+
+Ensure secure connections to your domain with Packetware's TLS configuration options:
+
+- **TLS Management**: Specify the level of encryption with `tls_config`, ensuring data integrity during transmission.
+
+## Domain Limits and Controls
+
+Set precise limits to tailor your domain's handling based on your particular needs:
+
+- **Request Timeouts and Limits**: Specify request timeouts to prevent overuse of server resources.
+- **Connection and Data Limits**: Ensure that your domain operates within specified bandwidth and storage constraints.
+  
+---
+
+By leveraging these sophisticated domain management tools, Packetware not only secures your online presence but also ensures efficient and stable performance. Whether it's through enhanced caching, extensive customization with rules, or robust security protocols, you can confidently manage your domain’s infrastructure, optimizing for both user experience and backend efficiency.
